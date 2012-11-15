@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/melfas_mcs8000.o drivers/input/touchscreen/mcs8000_download.o 

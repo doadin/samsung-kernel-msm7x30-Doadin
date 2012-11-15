@@ -1,0 +1,7 @@
+kernel/drivers/misc/pmic8058-pwm.ko
+kernel/drivers/misc/pmic8058-nfc.ko
+kernel/drivers/misc/pmic8058-upl.ko
+kernel/drivers/misc/fsa9480.ko
+kernel/drivers/misc/fm_si4709/Si4709_main.ko
+kernel/drivers/misc/fm_si4709/Si4709_dev.ko
+kernel/drivers/misc/fm_si4709/Si4709_i2c_drv.ko

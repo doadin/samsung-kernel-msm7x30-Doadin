@@ -1,0 +1,1 @@
+cmd_drivers/staging/zram/zram.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/staging/zram/zram.o drivers/staging/zram/zram_drv.o drivers/staging/zram/zram_sysfs.o drivers/staging/zram/xvmalloc.o 

@@ -1,0 +1,4 @@
+kernel/fs/cifs/cifs.ko
+kernel/drivers/net/wireless/bcm4329/dhd.ko
+kernel/drivers/bluetooth/bthid/bthid.ko
+kernel/drivers/param/sec_param.ko

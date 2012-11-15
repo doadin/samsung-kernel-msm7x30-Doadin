@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/mfd/built-in.o drivers/mfd/marimba-codec.o drivers/mfd/marimba-core.o drivers/mfd/msm-adie-codec.o drivers/mfd/mfd-core.o drivers/mfd/pmic8058.o 

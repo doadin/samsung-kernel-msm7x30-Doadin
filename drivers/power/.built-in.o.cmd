@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/power/built-in.o drivers/power/power_supply.o drivers/power/ancora_tmo_battery.o drivers/power/smb328a_charger.o 

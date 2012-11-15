@@ -1,0 +1,1 @@
+cmd_drivers/crypto/msm/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/crypto/msm/built-in.o drivers/crypto/msm/qcedev.o drivers/crypto/msm/qce.o drivers/crypto/msm/qcrypto.o 

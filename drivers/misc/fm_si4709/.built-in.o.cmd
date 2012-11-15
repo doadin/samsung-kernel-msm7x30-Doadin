@@ -1,0 +1,1 @@
+cmd_drivers/misc/fm_si4709/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/misc/fm_si4709/built-in.o drivers/misc/fm_si4709/Si4709_main.o drivers/misc/fm_si4709/Si4709_dev.o drivers/misc/fm_si4709/Si4709_i2c_drv.o 

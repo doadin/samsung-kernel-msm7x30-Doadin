@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/uinput.o drivers/input/misc/bma_accel_driver.o drivers/input/misc/gp2a_proximity.o drivers/input/misc/gp2a_rpc.o drivers/input/misc/ak8975.o 

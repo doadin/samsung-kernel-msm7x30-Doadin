@@ -1,0 +1,8 @@
+kernel/drivers/input/input-core.ko
+kernel/drivers/input/evdev.ko
+kernel/drivers/input/keyboard/pmic8058-keypad.ko
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/misc/bma_accel_driver.ko
+kernel/drivers/input/misc/gp2a_proximity.ko
+kernel/drivers/input/misc/gp2a_rpc.ko
+kernel/drivers/input/misc/ak8975.ko

@@ -1,0 +1,1 @@
+cmd_fs/cifs/cifs.ko := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-ld -EL -r  -T /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/scripts/module-common.lds --build-id -o fs/cifs/cifs.ko fs/cifs/cifs.o fs/cifs/cifs.mod.o
