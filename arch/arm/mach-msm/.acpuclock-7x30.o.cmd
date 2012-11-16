@@ -1,4 +1,4 @@
-cmd_arch/arm/mach-msm/acpuclock-7x30.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,arch/arm/mach-msm/.acpuclock-7x30.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(acpuclock_7x30)"  -D"KBUILD_MODNAME=KBUILD_STR(acpuclock_7x30)"  -c -o arch/arm/mach-msm/.tmp_acpuclock-7x30.o arch/arm/mach-msm/acpuclock-7x30.c
+cmd_arch/arm/mach-msm/acpuclock-7x30.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,arch/arm/mach-msm/.acpuclock-7x30.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(acpuclock_7x30)"  -D"KBUILD_MODNAME=KBUILD_STR(acpuclock_7x30)"  -c -o arch/arm/mach-msm/.tmp_acpuclock-7x30.o arch/arm/mach-msm/acpuclock-7x30.c
 
 deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   arch/arm/mach-msm/acpuclock-7x30.c \
@@ -31,22 +31,22 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
   include/linux/stddef.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/types.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitsperlong.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/posix_types.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/posix_types.h \
   include/linux/bitops.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitops.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitops.h \
     $(wildcard include/config/smp.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/system.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
@@ -60,12 +60,12 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irqflags.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irqflags.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/outercache.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
@@ -80,31 +80,31 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/arch/has/ilog2/u32.h) \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/dynamic_debug.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/byteorder.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/swab.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bug.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/div64.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/div64.h \
   include/linux/init.h \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
   include/linux/errno.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/string.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/string.h \
   include/linux/delay.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/delay.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/param.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/delay.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
   include/linux/clk.h \
   include/linux/cpufreq.h \
@@ -139,9 +139,9 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/processor.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/processor.h \
     $(wildcard include/config/mmu.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cache.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/spinlock_types.h \
@@ -154,13 +154,13 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/generic/hardirqs.h) \
     $(wildcard include/config/prove/rcu.h) \
   include/linux/rwlock_types.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/atomic.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic-long.h \
   include/linux/notifier.h \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/rwsem.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/rwsem.h \
   include/linux/spinlock.h \
     $(wildcard include/config/preempt.h) \
   include/linux/preempt.h \
@@ -168,12 +168,12 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/domain.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/emulate/domain/manager/v7.h) \
@@ -196,7 +196,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/sysfs.h) \
   include/linux/kref.h \
   include/linux/wait.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/current.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/current.h \
   include/linux/klist.h \
   include/linux/module.h \
     $(wildcard include/config/symbol/prefix.h) \
@@ -208,7 +208,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/module/unload.h) \
     $(wildcard include/config/constructors.h) \
   include/linux/stat.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/stat.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -250,7 +250,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/page.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -259,7 +259,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/memory/hotplug/sparse.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -272,7 +272,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
@@ -287,14 +287,14 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/arch/msm/scorpion.h) \
     $(wildcard include/config/arch/msm/scorpionmp.h) \
     $(wildcard include/config/arch/msm7x27.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
   include/linux/memory_hotplug.h \
     $(wildcard include/config/have/arch/nodedata/extension.h) \
     $(wildcard include/config/memory/hotremove.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sparsemem.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sparsemem.h \
   include/linux/topology.h \
     $(wildcard include/config/sched/smt.h) \
     $(wildcard include/config/sched/mc.h) \
@@ -311,11 +311,11 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/percpu.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/topology.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -329,15 +329,15 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/timex.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/timex.h \
   arch/arm/mach-msm/include/mach/timex.h \
   include/linux/debugobjects.h \
     $(wildcard include/config/debug/objects.h) \
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/elf.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/user.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/elf.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/user.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
@@ -355,7 +355,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/preempt/rt.h) \
   include/linux/completion.h \
   include/linux/rcutiny.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/module.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/trace/define_trace.h \
@@ -363,13 +363,13 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/pm/runtime.h) \
     $(wildcard include/config/pm/ops.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/device.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
     $(wildcard include/config/pm.h) \
   include/linux/io.h \
     $(wildcard include/config/has/ioport.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/io.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/io.h \
   arch/arm/mach-msm/include/mach/io.h \
   include/linux/sort.h \
   arch/arm/mach-msm/include/mach/board.h \
@@ -401,7 +401,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/migration.h) \
   include/linux/limits.h \
   include/linux/ioctl.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ioctl.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/kdev_t.h \
   include/linux/dcache.h \
@@ -425,7 +425,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   include/linux/sunrpc/msg_prot.h \
   include/linux/inet.h \
   include/linux/fcntl.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fcntl.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/err.h \
   include/linux/mod_devicetable.h \
@@ -490,23 +490,23 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
     $(wildcard include/config/aio.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/auxvec.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/auxvec.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/mmu.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cputime.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ipcbuf.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sembuf.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ipcbuf.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/signal.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sigcontext.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/siginfo.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sigcontext.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/proportions.h \
   include/linux/seccomp.h \
@@ -516,7 +516,7 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/resource.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/high/res/timers.h) \
@@ -535,19 +535,19 @@ deps_arch/arm/mach-msm/acpuclock-7x30.o := \
   include/linux/uio.h \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hardirq.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irq.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hardirq.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irq.h \
   arch/arm/mach-msm/include/mach/irqs.h \
     $(wildcard include/config/arch/qsd8x50.h) \
     $(wildcard include/config/arch/msm8x60.h) \
   arch/arm/mach-msm/include/mach/irqs-7x30.h \
   include/linux/irq_cpustat.h \
   include/linux/leds-pmic8058.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/clkdev.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/clkdev.h \
   arch/arm/mach-msm/include/mach/msm_iomap.h \
   arch/arm/mach-msm/include/mach/msm_iomap-7x30.h \
     $(wildcard include/config/msm/debug/uart.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/mach-types.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/mach-types.h \
   include/generated/mach-types.h \
     $(wildcard include/config/arch/ebsa110.h) \
     $(wildcard include/config/arch/rpc.h) \

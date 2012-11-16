@@ -13,8 +13,8 @@
 @	compiled by GNU C version 4.4.3, GMP version 4.2.4, MPFR version 2.4.1.
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ options passed:  -nostdinc
-@ -I/home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include
-@ -Iinclude -Iarch/arm/mach-msm/include -iprefix
+@ -I/home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude
+@ -Iarch/arm/mach-msm/include -iprefix
 @ /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/
 @ -D__USES_INITFINI__ -D__KERNEL__ -D__LINUX_ARM_ARCH__=7 -Uarm
 @ -DKBUILD_STR(s)=#s -DKBUILD_BASENAME=KBUILD_STR(asm_offsets)

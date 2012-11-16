@@ -1,10 +1,10 @@
-cmd_lib/ratelimit.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,lib/.ratelimit.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(ratelimit)"  -D"KBUILD_MODNAME=KBUILD_STR(ratelimit)"  -c -o lib/.tmp_ratelimit.o lib/ratelimit.c
+cmd_lib/ratelimit.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,lib/.ratelimit.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(ratelimit)"  -D"KBUILD_MODNAME=KBUILD_STR(ratelimit)"  -c -o lib/.tmp_ratelimit.o lib/ratelimit.c
 
 deps_lib/ratelimit.o := \
   lib/ratelimit.c \
   include/linux/ratelimit.h \
   include/linux/param.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/param.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
   include/linux/spinlock.h \
     $(wildcard include/config/smp.h) \
@@ -24,9 +24,9 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/types.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitsperlong.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
@@ -39,10 +39,10 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/posix_types.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/posix_types.h \
   include/linux/bitops.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitops.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/system.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bitops.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
@@ -51,17 +51,17 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/32v6k.h) \
   include/linux/linkage.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irqflags.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/irqflags.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/outercache.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
@@ -72,12 +72,12 @@ deps_lib/ratelimit.o := \
   include/asm-generic/bitops/arch_hweight.h \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/domain.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/domain.h \
     $(wildcard include/config/verify/permission/fault.h) \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/mmu.h) \
@@ -87,8 +87,8 @@ deps_lib/ratelimit.o := \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/processor.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cache.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/processor.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/kernel.h \
@@ -106,18 +106,18 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/arch/has/ilog2/u32.h) \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/dynamic_debug.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/byteorder.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/swab.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bug.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/div64.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/div64.h \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
@@ -131,7 +131,7 @@ deps_lib/ratelimit.o := \
   include/linux/spinlock_up.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/atomic.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic-long.h \
   include/linux/jiffies.h \
@@ -142,7 +142,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/arch/has/cache/line/size.h) \
   include/linux/seqlock.h \
   include/linux/timex.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/timex.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/timex.h \
   arch/arm/mach-msm/include/mach/timex.h \
     $(wildcard include/config/arch/msm/scorpionmp.h) \
   include/linux/module.h \
@@ -157,7 +157,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/sysfs.h) \
   include/linux/stat.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/stat.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/stat.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
     $(wildcard include/config/kmemcheck.h) \
@@ -186,7 +186,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/current.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/current.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -198,12 +198,12 @@ deps_lib/ratelimit.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/string.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/page.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -212,7 +212,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/memory/hotplug/sparse.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -225,7 +225,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
@@ -239,7 +239,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/cache/l2x0.h) \
     $(wildcard include/config/arch/msm/scorpion.h) \
     $(wildcard include/config/arch/msm7x27.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
@@ -248,16 +248,16 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/memory/hotremove.h) \
   include/linux/notifier.h \
   include/linux/errno.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/mutex.h \
     $(wildcard include/config/debug/mutexes.h) \
   include/linux/rwsem.h \
     $(wildcard include/config/rwsem/generic/spinlock.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/rwsem.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/rwsem.h \
   include/linux/srcu.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sparsemem.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sparsemem.h \
   include/linux/topology.h \
     $(wildcard include/config/sched/smt.h) \
     $(wildcard include/config/sched/mc.h) \
@@ -274,11 +274,11 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/percpu.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/topology.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -294,8 +294,8 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/elf.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/user.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/elf.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kref.h \
@@ -316,7 +316,7 @@ deps_lib/ratelimit.o := \
     $(wildcard include/config/preempt/rt.h) \
   include/linux/completion.h \
   include/linux/rcutiny.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/module.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/trace/define_trace.h \

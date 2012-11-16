@@ -1,4 +1,4 @@
-cmd_arch/arm/kernel/entry-armv.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,arch/arm/kernel/.entry-armv.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float       -c -o arch/arm/kernel/entry-armv.o arch/arm/kernel/entry-armv.S
+cmd_arch/arm/kernel/entry-armv.o := /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/arm-eabi-gcc -Wp,-MD,arch/arm/kernel/.entry-armv.o.d  -nostdinc -isystem /home/doadin/android/kernel/toolchains/arm-eabi-4.4.3/bin/../lib/gcc/arm-eabi/4.4.3/include -I/home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-msm/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables  -D__LINUX_ARM_ARCH__=7 -march=armv7-a  -include asm/unified.h -msoft-float       -c -o arch/arm/kernel/entry-armv.o arch/arm/kernel/entry-armv.S
 
 deps_arch/arm/kernel/entry-armv.o := \
   arch/arm/kernel/entry-armv.S \
@@ -22,9 +22,9 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/tls/reg/emul.h) \
     $(wildcard include/config/emulate/domain/manager/v7.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unified.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/highmem.h) \
     $(wildcard include/config/dram/size.h) \
@@ -46,12 +46,12 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/arch/msm/scorpion.h) \
     $(wildcard include/config/arch/msm/scorpionmp.h) \
     $(wildcard include/config/arch/msm7x27.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
     $(wildcard include/config/sparsemem.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
     $(wildcard include/config/cpu/abrt/ev4.h) \
     $(wildcard include/config/cpu/abrt/ev4t.h) \
@@ -62,9 +62,9 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/vfpmacros.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/vfpmacros.h \
     $(wildcard include/config/vfpv3.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/vfp.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/vfp.h \
   arch/arm/mach-msm/include/mach/entry-macro.S \
     $(wildcard include/config/msm/vic.h) \
     $(wildcard include/config/arm/gic.h) \
@@ -74,10 +74,10 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/arch/msm8x60.h) \
   arch/arm/mach-msm/include/mach/msm_iomap-7x30.h \
     $(wildcard include/config/msm/debug/uart.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_notify.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unwind.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_notify.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unwind.h \
     $(wildcard include/config/arm/unwind.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unistd.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/unistd.h \
     $(wildcard include/config/oabi/compat.h) \
   arch/arm/kernel/entry-header.S \
     $(wildcard include/config/frame/pointer.h) \
@@ -88,19 +88,19 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
   include/linux/linkage.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/assembler.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/linkage.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/assembler.h \
     $(wildcard include/config/cpu/feroceon.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/asm-offsets.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/ptrace.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/hwcap.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/asm-offsets.h \
   include/generated/asm-offsets.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/doadin/android/kernel/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
+  /home/doadin/Desktop/ancora_tmo_4.0.4_2.6/arch/arm/include/asm/fpstate.h \
 
 arch/arm/kernel/entry-armv.o: $(deps_arch/arm/kernel/entry-armv.o)
 
